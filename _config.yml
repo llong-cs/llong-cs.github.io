@@ -7,7 +7,7 @@
 
 # Site Settings
 title: "Lin Long"
-description: "Personal Homepage"
+description:
 repository: "llong-cs/llong-cs.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -28,7 +28,7 @@ author:
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=GdtXxoAAAAAJ"
-  email: "llong AT zju DOT edu DOT com"
+  email: "llong@zju.edu.cn"
   researchgate: # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
