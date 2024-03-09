@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am a fourth year undergraduate student in computer science at Zhejiang University. I am currently devoted to the field of natural language processing and generative artificial intelligence. My aspiration is to expand the boundary of human knowledge and creativity with the technology of AI. I am grateful to be co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). I am also a big fan of art and design, a video game lover, and sneaker head. 😋
+Hi! I am a fourth year undergraduate student in computer science at Zhejiang University. I am currently devoted to the field of natural language processing and generative artificial intelligence. My aspiration is to expand the boundary of human knowledge and creativity with the technology of AI. I am grateful to be co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). I am also a big fan of art and design, a video game lover, and a sneaker head. 😋
 
 Big shout out to my parents for being the greatest mom and dad of all time.
 
