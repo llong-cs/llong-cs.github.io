@@ -43,21 +43,15 @@ Big shout out to my parents for being the greatest mom and dad of all time.
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 - Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation.
-
 **Lin Long**, Haobo Wang, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao.
-
 ***CVPR**, 2024*.
 
 - On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey.
-
 **Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang
-
 Arxiv.
 
 - Property Existence Inference against Generative Models.
-
 Lijin Wang, Jingjing Wang, Jie Wan, **Lin Long**, Ziqi Yang, Zhan Qin.
-
 ***USENIX Security**, '24 Fall*.
 
 # 🎖 Honors and Awards
