@@ -47,7 +47,7 @@ Big shout out to my parents for being the greatest mom and dad of all time.
 ***CVPR**, 2024*.
 
 - On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey.
-**Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang
+**Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.
 Arxiv.
 
 - Property Existence Inference against Generative Models.
