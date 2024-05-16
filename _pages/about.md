@@ -23,6 +23,7 @@ Big shout out to my parents for being the greatest mom and dad of all time.
 
 
 # 🔥 What's New
+- *2024.05*: &nbsp;🎉🎉 One paper accpeted to the ACL Findings! (Which also marks my personal milestone in the field of NLP 😋) 
 - *2024.02*: &nbsp;🎉🎉 My **FIRST** conference paper as the first author, *Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation*, was accepted by **CVPR 2024**! 
 - *2024.02*: &nbsp;🎉🎉 A paper that I have contributed to, *Property Existence Inference against Generative Models*, was accepted by **USENIX Security '24 Fall**. 
 
@@ -41,14 +42,13 @@ Big shout out to my parents for being the greatest mom and dad of all time.
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+- On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey.
+**Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.
+***ACL Findings**, 2024*.
 
 - Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation.
 **Lin Long**, Haobo Wang, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao.
 ***CVPR**, 2024*.
-
-- On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey.
-**Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.
-Arxiv.
 
 - Property Existence Inference against Generative Models.
 Lijin Wang, Jingjing Wang, Jie Wan, **Lin Long**, Ziqi Yang, Zhan Qin.
