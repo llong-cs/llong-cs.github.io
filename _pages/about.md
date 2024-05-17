@@ -23,7 +23,7 @@ Big shout out to my parents for being the greatest mom and dad of all time.
 
 
 # 🔥 What's New
-- *2024.05*: &nbsp;🎉🎉 One paper accpeted to the ACL Findings! (Which also marks my personal milestone in the field of NLP 😋) 
+- *2024.05*: &nbsp;🎉🎉 One paper accpeted to the **ACL Findings**! (Which also marks my personal milestone in the field of NLP 😋) 
 - *2024.02*: &nbsp;🎉🎉 My **FIRST** conference paper as the first author, *Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation*, was accepted by **CVPR 2024**! 
 - *2024.02*: &nbsp;🎉🎉 A paper that I have contributed to, *Property Existence Inference against Generative Models*, was accepted by **USENIX Security '24 Fall**. 
 
