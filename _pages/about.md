@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am a fourth-year undergraduate student in computer science at Zhejiang University. I am currently devoted to the field of natural language processing and generative artificial intelligence. My aspiration is to expand the boundary of human knowledge and creativity with the technology of AI. I am grateful to be co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). I am also a big fan of art and design, a video game lover, and a sneaker head. 😋
+Hi! I am a first-year master student in Computer Science at Zhejiang University, co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). Previously, I obtained B.E. in Software Engineering from Zhejiang University. I am currently devoted to the field of artificial intelligence and natural language processing. My aspiration is to uncover the secrets of human cognition and advance AI systems to reason and think more like humans. Recently, I also have been fascinated about multimodal research, having a great passion for bridging the knowledge gaps between different modalities. Outside of academia, I am a big fan of art and design, and also a sneaker head. 😋
 
 Big shout out to my parents for being the greatest mom and dad of all time.
 
@@ -55,12 +55,17 @@ Lijin Wang, Jingjing Wang, Jie Wan, **Lin Long**, Ziqi Yang, Zhan Qin.
 ***USENIX Security**, '24 Fall*.
 
 # 🎖 Honors and Awards
+- *2024.06* utstanding Undergraduates of Zhejiang University
+- *2024.06* Outstanding Bachelor’s Thesis, Zhejiang University
 - *2023.09* Scholarship for Outstanding Students: Second Class, Zhejiang University. 
+- *2023.09* Xiaomi Scholarship
 - *2022.09* Scholarship for Outstanding Students: Second Class, Zhejiang University.  
+- *2022.09* Tencent Scholarship
 - *2021.09* Scholarship for Outstanding Students: Third Class, Zhejiang University.  
 
 # 📖 Educations
-- *2020.09 - now*, **B.E.** in Computer Science. Zhejiang Univeristy, Hangzhou, China. 
+- *2024.09 - present*, **Master student** in Computer Science at the College of Computer Science and Technology. Zhejiang Univeristy, Hangzhou, China. 
+- *2020.09 - 2024.06*, **B.E.** in Software Engineering at the College of Computer Science and Technology. Zhejiang Univeristy, Hangzhou, China. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
