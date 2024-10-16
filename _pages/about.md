@@ -36,7 +36,6 @@ BIIIIIG shout out to my parents for always supporting me and being the greatest 
 
 (\* denotes equal contribution)
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 - On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey.  
   **Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.  
   [***ACL Findings**, 2024*](https://aclanthology.org/2024.findings-acl.658/).
