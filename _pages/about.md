@@ -23,7 +23,7 @@ BIIIIIG shout out to my parents for always supporting me and being the greatest 
 
 
 # 🔥 What's New
-- *2024.05*: &nbsp;🎉🎉 One paper accpeted to the **ACL Findings**! (Which also marks my personal milestone in the field of NLP! Let's keep goooing!🤩) 
+- *2024.05*: &nbsp;🎉🎉 One paper accpeted to the **ACL Findings**! (Which also marks my personal milestone in the field of NLP! Let's keep goooing! 🤩) 
 - *2024.02*: &nbsp;🎉🎉 My **FIRST** paper as the **FIRST** author, *Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation*, was accepted by **CVPR 2024**! 
 - *2024.02*: &nbsp;🎉🎉 A paper that I have contributed to, *Property Existence Inference against Generative Models*, was accepted by **USENIX Security '24 Fall**. 
 
