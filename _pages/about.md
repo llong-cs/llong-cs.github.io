@@ -28,25 +28,25 @@ BIIIIIG shout out to my parents for always supporting me and being the greatest 
 - *2024.02*: &nbsp;🎉🎉 A paper that I have contributed to, *Property Existence Inference against Generative Models*, was accepted by **USENIX Security '24 Fall**. 
 
 # 🗒️ Preprints
-- [LLM Table Reading: Bridging the Semantic Gap Between Text and Table](https://openreview.net/forum?id=qmsX2R19p9).  
-  **Lin Long**, Xijun Gu, Xinjie Sun, Wentao Ye, Haobo Wang, Sai Wu, Gang Chen, Junbo Zhao.  
-  ***ICLR**, 2025 (under review)*.
+- [LLM Table Reading: Bridging the Semantic Gap Between Text and Table](https://openreview.net/forum?id=qmsX2R19p9)  
+  **Lin Long**, Xijun Gu, Xinjie Sun, Wentao Ye, Haobo Wang, Sai Wu, Gang Chen, Junbo Zhao  
+  ***ICLR**, 2025 (under review)*
 
 # 📝 Publications 
 
 (\* denotes equal contribution)
 
-- [On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey](https://aclanthology.org/2024.findings-acl.658/).  
-  **Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.  
-  ***ACL Findings**, 2024*.
+- [On LLMs-Driven Synthetic Data Generation, Curation and Evaluation: A Survey](https://aclanthology.org/2024.findings-acl.658/)  
+  **Lin Long**, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang  
+  ***ACL Findings**, 2024*
 
-- [Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation](https://openaccess.thecvf.com/content/CVPR2024/papers/Long_Positive-Unlabeled_Learning_by_Latent_Group-Aware_Meta_Disambiguation_CVPR_2024_paper.pdf).  
-  **Lin Long\***, Haobo Wang\*, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao.  
-  ***CVPR**, 2024*.
+- [Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation](https://openaccess.thecvf.com/content/CVPR2024/papers/Long_Positive-Unlabeled_Learning_by_Latent_Group-Aware_Meta_Disambiguation_CVPR_2024_paper.pdf)  
+  **Lin Long\***, Haobo Wang\*, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao  
+  ***CVPR**, 2024*
 
-- [Property Existence Inference against Generative Models](https://www.usenix.org/conference/usenixsecurity24/presentation/wang-lijin).  
-  Lijin Wang, Jingjing Wang, Jie Wan, **Lin Long**, Ziqi Yang, Zhan Qin.  
-  ***USENIX Security**, '24 Fall*.
+- [Property Existence Inference against Generative Models](https://www.usenix.org/conference/usenixsecurity24/presentation/wang-lijin)  
+  Lijin Wang, Jingjing Wang, Jie Wan, **Lin Long**, Ziqi Yang, Zhan Qin  
+  ***USENIX Security**, '24 Fall*
 
 # 🎖 Honors and Awards
 - *2024.06* Outstanding Undergraduates of Zhejiang University
