@@ -51,11 +51,11 @@ BIIIIIG shout out to my parents for always supporting me and being the greatest 
 # 🎖 Honors and Awards
 - *2024.06* Outstanding Undergraduates of Zhejiang University
 - *2024.06* Outstanding Bachelor’s Thesis, Zhejiang University
-- *2023.09* Scholarship for Outstanding Students: Second Class, Zhejiang University. 
+- *2023.09* Scholarship for Outstanding Students: Second Class, Zhejiang University 
 - *2023.09* Xiaomi Scholarship
-- *2022.09* Scholarship for Outstanding Students: Second Class, Zhejiang University.  
+- *2022.09* Scholarship for Outstanding Students: Second Class, Zhejiang University  
 - *2022.09* Tencent Scholarship
-- *2021.09* Scholarship for Outstanding Students: Third Class, Zhejiang University.  
+- *2021.09* Scholarship for Outstanding Students: Third Class, Zhejiang University  
 
 # 📖 Educations
 - *2024.09 - present*, **M.S.** in Computer Science at the College of Computer Science and Technology. Zhejiang Univeristy, Hangzhou, China. 
