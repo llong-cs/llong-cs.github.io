@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! I am a first-year M.S. in Computer Science at Zhejiang University, co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). Previously, I recieved my B.E. degree in Software Engineering at Zhejiang University. I am currently devoted to the field of artificial intelligence and natural language processing. My aspiration is to uncover the secrets of human cognition and advance AI systems to reason and think more like humans. Recently, I have been fascinated about multimodal research, having a great passion for bridging the knowledge gaps between different modalities. Outside of academia, I am a big fan of art, design, and all kinds of competitive sports. I am also a sneaker head! 😋
 
-BIIIIIG shout out to my parents for supporting me and being the greatest mom and dad of all time. 🩵
+BIIIIIG shout out to my parents for always supporting me and being the greatest mom and dad of all time. 🩵
 
 
 # 🔥 What's New
@@ -34,6 +34,7 @@ BIIIIIG shout out to my parents for supporting me and being the greatest mom and
 
 # 📝 Publications 
 
+(\* denotes equal contribution)
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -52,7 +53,7 @@ BIIIIIG shout out to my parents for supporting me and being the greatest mom and
   [***ACL Findings**, 2024*](https://aclanthology.org/2024.findings-acl.658/).
 
 - Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation.  
-  **Lin Long**, Haobo Wang, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao.  
+  **Lin Long\***, Haobo Wang\*, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao.  
   [***CVPR**, 2024*](https://openaccess.thecvf.com/content/CVPR2024/papers/Long_Positive-Unlabeled_Learning_by_Latent_Group-Aware_Meta_Disambiguation_CVPR_2024_paper.pdf).
 
 - Property Existence Inference against Generative Models.  
