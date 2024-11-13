@@ -23,12 +23,17 @@ BIIIIIG shout out to my parents for always supporting me and being the greatest 
 
 
 # 🔥 What's New
+- *2024.11*: &nbsp;🎉🎉 We release TableGPT2, an open-source table expert that excels in table-centric tasks while maintaining strong general language and coding abilities! Try out our brand new 7B model on [🤗HuggingFace](https://huggingface.co/tablegpt/TableGPT2-7B)!
 - *2024.05*: &nbsp;🎉🎉 One paper accpeted to the **ACL Findings**! (Which also marks my personal milestone in the field of NLP! Let's keep goooing! 🤩) 
 - *2024.02*: &nbsp;🎉🎉 My **FIRST** paper as the **FIRST** author, *Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation*, was accepted by **CVPR 2024**! 
 - *2024.02*: &nbsp;🎉🎉 A paper that I have contributed to, *Property Existence Inference against Generative Models*, was accepted by **USENIX Security '24 Fall**. 
 
 # 🗒️ Preprints
-- [LLM Table Reading: Bridging the Semantic Gap Between Text and Table](https://openreview.net/forum?id=qmsX2R19p9)  
+- [TableGPT2: A Large Multimodal Model with Tabular Data Integration](https://arxiv.org/abs/2411.02059) 
+  **TableGPT Team** (as directional lead of table encoder)  
+  ***arXiv [cs.LG]***
+
+- LLM Table Reading: Bridging the Semantic Gap Between Text and Table
   **Lin Long**, Xijun Gu, Xinjie Sun, Wentao Ye, Haobo Wang, Sai Wu, Gang Chen, Junbo Zhao  
   ***ICLR**, 2025 (under review)*
 
