@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am a first-year M.S. in Computer Science at Zhejiang University, co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). Previously, I recieved my B.E. degree in Software Engineering at Zhejiang University. I am currently devoted to the field of artificial intelligence and natural language processing. My aspiration is to uncover the secrets of human cognition and advance AI systems to reason and think more like humans. Recently, I have been fascinated about multimodal research, having a great passion for bridging the knowledge gaps between different modalities. Outside of academia, I am a big fan of art, design, and all kinds of competitive sports. I am also a sneaker head! 😋
+Hi! I am a first-year master student in Computer Science at Zhejiang University, co-advised by [Junbo Zhao](http://jakezhao.net/) and [Haobo Wang](https://hbzju.github.io/). Previously, I recieved my B.E. degree in Software Engineering at Zhejiang University. I am currently devoted to the field of artificial intelligence and natural language processing. My aspiration is to uncover the secrets of human cognition and advance AI systems to reason and think more like humans. Recently, I have been fascinated about multimodal research, having a great passion for bridging the knowledge gaps between different modalities. Outside of academia, I am a big fan of art, design, and all kinds of competitive sports. I am also a sneaker head! 😋
 
 BIIIIIG shout out to my parents for always supporting me and being the greatest mom and dad of all time. 🩵
 
