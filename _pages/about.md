@@ -29,11 +29,12 @@ BIIIIIG shout out to my parents for always supporting me and being the greatest 
 - *2024.02*: &nbsp;🎉🎉 A paper that I have contributed to, *Property Existence Inference against Generative Models*, was accepted by **USENIX Security '24 Fall**. 
 
 # 🗒️ Preprints
-- [TableGPT2: A Large Multimodal Model with Tabular Data Integration](https://arxiv.org/abs/2411.02059) 
+
+- [TableGPT2: A Large Multimodal Model with Tabular Data Integration](https://arxiv.org/abs/2411.02059)  
   **TableGPT Team** (as directional lead of table encoder)  
   ***arXiv [cs.LG]***
 
-- LLM Table Reading: Bridging the Semantic Gap Between Text and Table
+- LLM Table Reading: Bridging the Semantic Gap Between Text and Table  
   **Lin Long**, Xijun Gu, Xinjie Sun, Wentao Ye, Haobo Wang, Sai Wu, Gang Chen, Junbo Zhao  
   ***ICLR**, 2025 (under review)*
 
