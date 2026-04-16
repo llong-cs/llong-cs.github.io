@@ -5,12 +5,20 @@ export interface Event {
 
 export const events: Event[] = [
   {
+    date: "2026.01",
+    content: "Two paper accepted to ICLR 2026!"
+  },
+  {
+    date: "2025.06",
+    content: "I am visiting the University of Wisconsin-Madison, hosted by Sharon Li."
+  },
+  {
     date: "2025.01",
-    content: "One paper accepted to ICLR 2025, which delves into table-text multimodal learning, one of the core parts of TableGPT2! Stay tuned for the upcoming camera-ready paper and source code!"
+    content: "One paper accepted to ICLR 2025, which delves into table-text multimodal learning, one of the core parts of TableGPT2!"
   },
   {
     date: "2024.12",
-    content: "I am joining the ByteDance Research AI-Lab as a research intern! Looking forward to building something cool on multimodal agents with the team! 🤩"
+    content: "I am joining the ByteDance Seed as a research intern! Looking forward to building something cool on multimodal agents with the team! 🤩"
   },
   {
     date: "2024.11",
@@ -18,11 +26,11 @@ export const events: Event[] = [
   },
   {
     date: "2024.05",
-    content: "One paper accpeted to ACL 2024 Findings! (Which also marks my personal milestone in the field of NLP! Let's keep going! 🤩)"
+    content: "One paper accpeted to ACL 2024 Findings!"
   },
   {
     date: "2024.02",
-    content: "My FIRST paper as the FIRST author, Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation, was accepted by CVPR 2024! That's just the beginning!"
+    content: "My FIRST paper as the FIRST author, Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation, was accepted by CVPR 2024!"
   },
   {
     date: "2024.02",

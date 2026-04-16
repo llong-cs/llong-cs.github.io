@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && gh-pages --dotfiles -d out"
   },
-  "homepage": "https:/llong-cs.github.io/llongme",
+  "homepage": "https://llong-cs.github.io",
   "dependencies": {
     "next": "15.1.7",
     "react": "^19.0.0",
