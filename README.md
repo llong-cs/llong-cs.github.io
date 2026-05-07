@@ -2,8 +2,6 @@
 
 Personal academic homepage built with Next.js, deployed on GitHub Pages.
 
-**Live site**: https://llong-cs.github.io/llongme
-
 ## Development
 
 ```bash
