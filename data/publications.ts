@@ -41,11 +41,5 @@ export const publications: Publication[] = [
     title: "Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation",
     authors: "<span class='italic font-bold'>Lin Long*</span>, Haobo Wang*, Zhijie Jiang, Lei Feng, Chang Yao, Gang Chen, Junbo Zhao",
     link: "https://openaccess.thecvf.com/content/CVPR2024/papers/Long_Positive-Unlabeled_Learning_by_Latent_Group-Aware_Meta_Disambiguation_CVPR_2024_paper.pdf"
-  },
-  {
-    venue: "USENIX Security '24 Fall",
-    title: "Property Existence Inference against Generative Models",
-    authors: "Lijin Wang, Jingjing Wang, Jie Wan, <span class='italic font-bold'>Lin Long</span>, Ziqi Yang, Zhan Qin",
-    link: "https://www.usenix.org/conference/usenixsecurity24/presentation/wang-lijin"
   }
 ];
