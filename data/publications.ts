@@ -19,12 +19,6 @@ export const publications: Publication[] = [
     link: "https://arxiv.org/abs/2508.09736"
   },
   {
-    venue: "arXiv",
-    title: "TableGPT2: A Large Multimodal Model with Tabular Data Integration",
-    authors: "TableGPT Team (as <span class='italic font-bold'>directional lead of table encoder</span>)",
-    link: "https://arxiv.org/abs/2411.02059"
-  },
-  {
     venue: "ICLR 2025",
     title: "Bridging the Semantic Gap Between Text and Table: A Case Study on NL2SQL",
     authors: "<span class='italic font-bold'>Lin Long*</span>, Xijun Gu*, Xinjie Sun, Wentao Ye, Haobo Wang, Sai Wu, Gang Chen, Junbo Zhao",

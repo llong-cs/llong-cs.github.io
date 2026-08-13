@@ -31,9 +31,5 @@ export const events: Event[] = [
   {
     date: "2024.02",
     content: "My FIRST paper as the FIRST author, Positive-Unlabeled Learning by Latent Group-Aware Meta Disambiguation, was accepted by CVPR 2024!"
-  },
-  {
-    date: "2024.02",
-    content: "A paper that I have contributed to, Property Existence Inference against Generative Models, was accepted by USENIX Security '24 Fall."
   }
 ];

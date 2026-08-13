@@ -12,7 +12,7 @@ export const researchExperiences: Experience[] = [
     organization: "Inclusion AI, Ant Group",
     role: "Research intern. Working on unified multimodal models.",
     advisors: "Junbo \"Jake\" Zhao",
-    period: "2026-Present"
+    period: "2026"
   },
   {
     logo: "/images/uw-madison-logo.png",
@@ -32,11 +32,18 @@ export const researchExperiences: Experience[] = [
 
 export const educationExperiences: Experience[] = [
   {
+    logo: "/images/jhu-logo.png",
+    organization: "Johns Hopkins University",
+    role: "Ph.D. in Computer Science, Whiting School of Engineering.",
+    advisors: "Jaemin Cho",
+    period: "2026-Present"
+  },
+  {
     logo: "/images/zju-logo.png",
     organization: "Zhejiang University",
     role: "M.S. in Computer Science, College of Computer Science and Technology.",
     advisors: "Junbo \"Jake\" Zhao, Haobo Wang",
-    period: "2024-2026"
+    period: "2024-2026 (dropped out)"
   },
   {
     logo: "/images/zju-logo.png",
