@@ -7,6 +7,12 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    venue: "Preprint",
+    title: "dRAE: Representation Autoencoder with Hyper-Spherical Codes",
+    authors: "Tianren Ma, <span class='italic font-bold'>Lin Long</span>, Chuyan Chen, Mu Zhang, Junbo Zhao, Tong Zhang, Qixiang Ye",
+    link: "https://arxiv.org/abs/2607.22148"
+  },
+  {
     venue: "ICLR 2026",
     title: "Understanding Language Prior of LVLMs by Contrasting Chain-of-Embedding",
     authors: "<span class='italic font-bold'>Lin Long*</span>, Changdae Oh*, Seongheon Park, Sharon Li",

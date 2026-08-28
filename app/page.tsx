@@ -163,12 +163,28 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-gray-100 pointer-events-none" />
           </div>
           <div className="md:w-3/4 text-center md:text-left">
-            <h1 className="text-2xl md:text-4xl font-bold">{intro.name} (<span className="inline-block"></span> <span className={`${calli.className} tracking-wider`}>{intro.chineseName}</span>)</h1>
+            <h1 className="flex flex-wrap items-baseline justify-center gap-x-2 text-2xl font-bold md:justify-start md:text-4xl">
+              <span className="relative inline-block tracking-[-0.025em]">
+                {intro.name}
+                <span aria-hidden="true" className="absolute -bottom-1 left-0 h-[3px] w-10 rounded-full bg-[#f09a63]/90 md:w-14" />
+              </span>
+              <span className="inline-flex items-baseline font-medium text-gray-400">
+                <span className="text-[0.78em]">(</span>
+                <span className={`${calli.className} relative mx-1 inline-block tracking-[0.12em] text-gray-800`}>
+                  <span aria-hidden="true" className="absolute -inset-x-1 bottom-[0.08em] h-[0.34em] -rotate-1 rounded-full bg-[#ffb17d]/55" />
+                  <span className="relative">{intro.chineseName}</span>
+                </span>
+                <span className="text-[0.78em]">)</span>
+              </span>
+            </h1>
             {intro.subtitle && <p className="text-gray-600 italic">{intro.subtitle}</p>}
             <div className="flex flex-wrap justify-center md:justify-start gap-2 md:gap-4 mt-4 text-gray-700">
 <a href={intro.github} className="flex items-center space-x-2 hover:text-gray-500 hover:-translate-y-0.5 transition-all duration-200"><FaGithub /> <span>Github</span></a>
               <a href={intro.googleScholar} className="flex items-center space-x-2 hover:text-gray-500 hover:-translate-y-0.5 transition-all duration-200"><FaGraduationCap /> <span>G-Scholar</span></a>
-              <p className="flex items-center space-x-2"><FaEnvelope /> <span className="font-mono">{intro.email}</span></p>
+              <p className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-white/80 px-2.5 py-1 text-gray-600 shadow-sm">
+                <FaEnvelope className="h-4 w-4 shrink-0 text-gray-500" />
+                <span className="font-mono text-xs tracking-tight">{intro.email}</span>
+              </p>
             </div>
             <p className="mt-6 text-base text-gray-800 leading-relaxed">
               {isColor ? intro.bio : stripEmoji(intro.bio)}

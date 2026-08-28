@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Soft apricot cursor accents for precise pointer devices. */
+@media (pointer: fine) {
+  html,
+  body {
+    cursor: url('/cursors/apricot-arrow.svg') 3 2, auto;
+  }
+
+  a,
+  button,
+  [role='button'],
+  .cursor-pointer {
+    cursor: url('/cursors/apricot-pointer.svg') 8 2, pointer;
+  }
+}
+
+::selection {
+  color: #3d2418;
+  background: #ffc69f;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: #3d2418;
+  background: #ffc69f;
+  text-shadow: none;
+}
+
 /* Custom scrollbar */
 .overflow-y-auto::-webkit-scrollbar {
   width: 4px;

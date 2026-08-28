@@ -10,23 +10,23 @@ export const researchExperiences: Experience[] = [
   {
     logo: "/images/antgroup-logo.jpeg",
     organization: "Inclusion AI, Ant Group",
-    role: "Research intern. Working on unified multimodal models.",
+    role: "Research intern. Working on unified multimodal models and robot learning with egocentric human videos.",
     advisors: "Junbo \"Jake\" Zhao",
-    period: "2026"
+    period: "2026.02-2026.08"
   },
   {
     logo: "/images/uw-madison-logo.png",
     organization: "University of Wisconsin-Madison",
     role: "Visiting scholar at the Department of Computer Sciences.",
     advisors: "Sharon Li",
-    period: "2025-2026"
+    period: "2025.06-2026.01"
   },
   {
     logo: "/images/bytedance-logo.png",
     organization: "ByteDance Seed",
     role: "Research intern. Working on multimodal agent.",
     advisors: "Yuan Lin, Hang Li",
-    period: "2024-2025"
+    period: "2024.12-2025.06"
   }
 ];
 
