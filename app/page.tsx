@@ -45,6 +45,32 @@ function stripEmoji(text: string): string {
   return text.replace(emojiRegex, '').replace(/\s{2,}/g, ' ').trim();
 }
 
+const bioLinks: Record<string, string> = {
+  'Prof. Jaemin Cho': 'https://j-min.io/',
+  'Prof. Junbo Zhao': 'https://jzhao2024.github.io/',
+};
+
+function renderBio(text: string) {
+  const linkedNames = Object.keys(bioLinks);
+  const pattern = new RegExp(`(${linkedNames.map((name) => name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'g');
+
+  return text.split(pattern).map((part, index) => {
+    const link = bioLinks[part];
+
+    return link ? (
+      <a
+        key={`${part}-${index}`}
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-medium underline decoration-gray-300 underline-offset-2 transition-colors duration-200 hover:text-[#e8844e] hover:decoration-[#f09a63]"
+      >
+        {part}
+      </a>
+    ) : part;
+  });
+}
+
 function EyeOpenIcon() {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -96,24 +122,7 @@ function ExperienceCard({ experience }: { experience: Experience }) {
       <div className="flex-1 min-w-0">
         <h3 className="text-lg font-semibold">{experience.organization}</h3>
         <p className="text-base text-gray-600">{experience.role}</p>
-        <p className="text-base">
-          {experience.advisors.length > 1 ? 'Advisors' : 'Advisor'}:{' '}
-          {experience.advisors.map((advisor, index) => (
-            <span key={advisor.name}>
-              {index > 0 && ', '}
-              {advisor.link ? (
-                <a
-                  href={advisor.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-gray-300 underline-offset-2 transition-colors duration-200 hover:text-[#e8844e] hover:decoration-[#f09a63]"
-                >
-                  {advisor.name}
-                </a>
-              ) : advisor.name}
-            </span>
-          ))}
-        </p>
+        <p className="text-base">{experience.advisors.includes(',') ? 'Advisors' : 'Advisor'}: {experience.advisors}</p>
       </div>
       <p className="text-sm sm:text-base text-gray-600 sm:text-right sm:w-48 flex-shrink-0">{experience.period}</p>
     </div>
@@ -204,7 +213,7 @@ export default function Home() {
               </p>
             </div>
             <p className="mt-6 text-base text-gray-800 leading-relaxed">
-              {isColor ? intro.bio : stripEmoji(intro.bio)}
+              {renderBio(isColor ? intro.bio : stripEmoji(intro.bio))}
               {isColor && <><br />{intro.acknowledgement}</>}
             </p>
           </div>
