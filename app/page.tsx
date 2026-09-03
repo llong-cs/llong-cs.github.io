@@ -96,7 +96,24 @@ function ExperienceCard({ experience }: { experience: Experience }) {
       <div className="flex-1 min-w-0">
         <h3 className="text-lg font-semibold">{experience.organization}</h3>
         <p className="text-base text-gray-600">{experience.role}</p>
-        <p className="text-base">{experience.advisors.includes(',') ? 'Advisors' : 'Advisor'}: {experience.advisors}</p>
+        <p className="text-base">
+          {experience.advisors.length > 1 ? 'Advisors' : 'Advisor'}:{' '}
+          {experience.advisors.map((advisor, index) => (
+            <span key={advisor.name}>
+              {index > 0 && ', '}
+              {advisor.link ? (
+                <a
+                  href={advisor.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-gray-300 underline-offset-2 transition-colors duration-200 hover:text-[#e8844e] hover:decoration-[#f09a63]"
+                >
+                  {advisor.name}
+                </a>
+              ) : advisor.name}
+            </span>
+          ))}
+        </p>
       </div>
       <p className="text-sm sm:text-base text-gray-600 sm:text-right sm:w-48 flex-shrink-0">{experience.period}</p>
     </div>
@@ -169,12 +186,12 @@ export default function Home() {
                 <span aria-hidden="true" className="absolute -bottom-1 left-0 h-[3px] w-10 rounded-full bg-[#f09a63]/90 md:w-14" />
               </span>
               <span className="inline-flex items-baseline font-medium text-gray-400">
-                <span className="text-[0.78em]">(</span>
+                <span className="text-[0.82em]">「</span>
                 <span className={`${calli.className} relative mx-1 inline-block tracking-[0.12em] text-gray-800`}>
                   <span aria-hidden="true" className="absolute -inset-x-1 bottom-[0.08em] h-[0.34em] -rotate-1 rounded-full bg-[#ffb17d]/55" />
                   <span className="relative">{intro.chineseName}</span>
                 </span>
-                <span className="text-[0.78em]">)</span>
+                <span className="text-[0.82em]">」</span>
               </span>
             </h1>
             {intro.subtitle && <p className="text-gray-600 italic">{intro.subtitle}</p>}
