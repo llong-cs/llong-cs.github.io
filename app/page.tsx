@@ -1,5 +1,5 @@
 'use client';
-import { FaGithub, FaEnvelope, FaGraduationCap } from 'react-icons/fa';
+import { FaArrowRight, FaBookOpen, FaGithub, FaEnvelope, FaGraduationCap } from 'react-icons/fa';
 import Image from "next/image";
 import { useState } from 'react';
 import localFont from 'next/font/local'
@@ -7,6 +7,7 @@ import { publications, type Publication } from '@/data/publications';
 import { events, type Event } from '@/data/events';
 import { researchExperiences, educationExperiences, type Experience } from '@/data/experiences';
 import { intro } from '@/data/intro';
+import { blogs, type BlogPost } from '@/data/blogs';
 
 const outfit = localFont({
   src: [
@@ -107,6 +108,59 @@ function PublicationCard({ publication }: { publication: Publication }) {
   );
 }
 
+function BlogCard({ blog }: { blog: BlogPost }) {
+  return (
+    <article className="group relative overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+      <div className="absolute inset-y-0 left-0 w-1 bg-[#f5b184]" />
+      <div className="p-5 pl-6 md:p-6 md:pl-7">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <div className="mb-2 flex flex-wrap items-center gap-2 text-xs font-medium">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-[#fff1e7] px-2.5 py-1 text-[#a8542f]">
+                <FaBookOpen aria-hidden="true" />
+                Blog
+              </span>
+              <time dateTime={blog.publishedAt} className="text-gray-500">{blog.dateLabel}</time>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-900 md:text-2xl">{blog.title}</h3>
+            <p className="mt-1 text-sm italic text-gray-500">{blog.subtitle}</p>
+            <p className="mt-2 text-sm text-gray-600">{blog.authors}</p>
+          </div>
+          <div className="flex shrink-0 gap-2">
+            <a
+              href={blog.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-[#f09a63] px-4 py-2 text-sm font-medium text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#e8844e] hover:shadow-md"
+            >
+              Read blog
+              <FaArrowRight aria-hidden="true" className="text-xs" />
+            </a>
+            <a
+              href={blog.codeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3.5 py-2 text-sm font-medium text-gray-700 transition-all duration-200 hover:-translate-y-0.5 hover:border-[#f5b184] hover:text-[#b85f35]"
+              aria-label={`${blog.title} source code on GitHub`}
+            >
+              <FaGithub aria-hidden="true" />
+              Code
+            </a>
+          </div>
+        </div>
+        <p className="mt-4 max-w-3xl leading-relaxed text-gray-700">{blog.description}</p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {blog.tags.map((tag) => (
+            <span key={tag} className="rounded-full bg-gray-100 px-2.5 py-1 text-xs text-gray-600">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    </article>
+  );
+}
+
 function ExperienceCard({ experience }: { experience: Experience }) {
   return (
     <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 p-4 bg-white rounded-lg shadow-md hover:scale-[1.02] transition-transform duration-300 ease-in-out cursor-pointer">
@@ -160,15 +214,15 @@ export default function Home() {
         >
           {isColor ? <EyeOpenIcon /> : <EyeClosedIcon />}
         </button>
-        <div className="flex space-x-3 md:space-x-6">
-          {['about', 'news', 'publications', 'misc'].map((section) => (
+        <div className="flex space-x-2 md:space-x-6">
+          {['about', 'news', 'publications', 'blog', 'misc'].map((section) => (
             <a
               key={section}
               href={`#${section}`}
               onClick={(e) => { e.preventDefault(); scrollToSection(section); }}
               className="relative hover:text-gray-600 transition-colors duration-300 after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-gray-600 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
             >
-              {section === 'about' ? 'About' : section === 'news' ? 'News' : section === 'publications' ? 'Publication' : 'Misc.'}
+              {section === 'about' ? 'About' : section === 'news' ? 'News' : section === 'publications' ? 'Publication' : section === 'blog' ? 'Blog' : 'Misc.'}
             </a>
           ))}
         </div>
@@ -256,6 +310,17 @@ export default function Home() {
           <div className="flex flex-col gap-4">
             {publications.map((pub, index) => (
               <PublicationCard key={index} publication={pub} />
+            ))}
+          </div>
+        </div>
+
+        {/* Blog Section */}
+        <hr className="max-w-4xl mx-auto mt-12 border-gray-300" />
+        <div id="blog" className="max-w-4xl mx-auto mt-8">
+          <h2 className="mb-6 text-2xl font-semibold md:text-3xl">{isColor && '✍️ '}Blog</h2>
+          <div className="flex flex-col gap-4">
+            {blogs.map((blog) => (
+              <BlogCard key={blog.link} blog={blog} />
             ))}
           </div>
         </div>
